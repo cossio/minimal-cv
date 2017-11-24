@@ -1,0 +1,139 @@
+\documentclass{customize} % Include Custom Styling
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Set alignments and spaces
+
+\name{John Doe} % Name
+\address{Newyork \\ USA } % Address
+\address{+1-9999-888-777 \\ www.example.com \\ jd@example.com } %  Phone number / Website / email
+ 
+
+\begin{document}
+
+% EDUCATION SECTION
+\begin{rSection}{Education}
+
+{\bf University Name} \hfill {\em June 2013} \\ 
+Master of Science \\ % Degree
+Information Security \\ % Specialty 
+Overall GPA: 3.8/4.0 % GPA or Grades
+
+\end{rSection}
+
+
+% WORK EXPERIENCE SECTION
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Company Name 3}{August 2016 - Present}{Job Title}{City, NY} 
+\item Performed ...
+\item Worked on ...
+\item Developed ...
+\item Designed and developed ...   
+\item Organized ...
+\item Documented ... 
+\item Personally created ...
+\end{rSubsection}
+
+% Next
+
+\begin{rSubsection}{Company Name 2}{September 2014 - August 2016}{Job Title}{City, NY}
+\item Responsible for ...
+\item Performed ... 
+\item Created ...
+\item Prepared ...
+\item Assigned ...
+\item Demonstrated ...   
+\item Developed ...
+\item Worked on...
+\item Delivered ...
+\item Appreciated for ...
+\item Designed and developed ...
+\item Responsible for designing and writing ...
+\end{rSubsection}
+
+% Next 
+
+\begin{rSubsection}{CompanyName 1}{January 2014 - August 2014}{Intern}{City, NY}
+\item Performed ...
+\item Worked with ...
+\item Was able to ...
+\item Developed ...
+\item Participated ...
+\item Contributed in ...
+\item Appreciated for ...
+\end{rSubsection}
+
+\end{rSection}
+
+%	TECHNICAL STRENGTHS SECTION
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l } 
+% Add it between & and \\ ex. Frameworks &  Laravel,Django \\
+Computer Languages &  \\
+Scripting & \\
+Frameworks &  \\
+Tools &  \\
+Scanners &  \\
+Web Frameworks & \ \\
+Web Technologies &  \\
+CMS &  \\
+VCS &  \\
+\end{tabular}
+
+\end{rSection}
+
+% Projects done in company
+\begin{rSection}{ Key Projects}
+
+\begin{rSubsection}{Client Heading }{}{Small Description}{}
+\item Extensively ... 
+\item Checked the ...
+\item Performed wireless security assessment 
+\item Used professional tools to ...
+\item Performed ... 
+\end{rSubsection}
+
+\end{rSection}
+
+% Open Source Projects
+\begin{rSection}{Open Source Projects}
+\begin{rSubsection}{Repo Name}{Open Source}{https://github.com/}{Scratch}
+\item Python RESTFul API client module for ...
+\item Supports all operations implemented in API.
+\item Written in Python3
+
+\end{rSubsection}
+\end{rSection}
+
+% Certifications
+\begin{rSection}{Certifications}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Provider Name  1 & Certification Name \\
+Provider Name  2 & Certification Name \\
+Provider Name  3 & Certification Name \\
+Provider Name  4 & Certification Name \\
+\end{tabular}
+
+
+\end{rSection}
+
+% Achievements 
+\begin{rSection}{Awards \& Achievements}
+
+\begin{rSubsection}{}{}{}{}
+\item Found ...
+\item Ranked ...
+\item Reported ...
+\item Committed ...
+\item Volunteered ...
+\item Created ...
+\end{rSubsection}
+\end{rSection}
+
+\vfill
+
+% Declaration 
+\textbf{DECLERATION:} I hereby declare that the above information is true to the best of my knowledge.
+
+\end{document}
